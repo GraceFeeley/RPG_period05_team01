@@ -73,7 +73,11 @@ public class YoRPG
     } catch ( IOException e ) { }
 
     //instantiate the player's character
-    pat = new Protagonist( name );
+	try {
+	System.out.println( "\nWhich Protagonist which you like?" );
+	prot = Integer.parseInt( in.readLine() )
+	}
+    pat = new prot( name );
 
   }//end newGame()
 
@@ -94,7 +98,11 @@ public class YoRPG
     else {
 	    System.out.println( "\nLo, yonder monster approacheth!" );
 
-	    smaug = new Monster();
+		try {
+			System.out.println( "\nWhich Monster which you like?" );
+			mons = Integer.parseInt( in.readLine() )
+		}
+	    smaug = new mons();
 
 	    while( smaug.isAlive() && pat.isAlive() ) {
 
