@@ -3,6 +3,7 @@
 #Protagonist Subclasses
 
 ##Knight
+
 Stats | 
 ------------ | -------------
 Health | 400
@@ -14,6 +15,7 @@ Strength | 70
 owns private field **sword**, which adds to 
 
 ##Priest
+
 Stats | 
 ------------ | -------------
 Health | 500
@@ -29,6 +31,7 @@ priests can use **holy healing** to regain health, however this comes at the cos
 #Monster Subclasses
 
 ## Werewolf
+
 Stats | 
 ------------ | -------------
 Health | 60
