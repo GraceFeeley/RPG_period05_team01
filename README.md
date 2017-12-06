@@ -1,8 +1,8 @@
 # RPG_period05_team01
 
-# Protagonist Subclasses
+## Protagonist Subclasses
 
-## Knight
+### Knight
 Stats | #
 ------------ | -------------
 Health | 400
@@ -13,7 +13,7 @@ Strength | 70
 
 owns private field **sword**, which adds to 
 
-## Priest
+### Priest
 Stats | #
 ------------ | -------------
 Health | 500
@@ -26,9 +26,9 @@ priests can use **holy healing** to regain health, however this comes at the cos
 
 
 
-# Monster Subclasses
+## Monster Subclasses
 
-## Werewolf
+### Werewolf
 Stats | #
 ------------ | -------------
 Health | 60
@@ -39,7 +39,7 @@ awoo | 500
 
 werewolves can use **howl** to take down the defense of enemies, watch out!
 
-## Vampire
+### Vampire
 
 Stats | #
 ------------ | -------------
