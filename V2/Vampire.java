@@ -3,7 +3,7 @@ public class Vampire extends Monster{
     
     /*
     constructor */
-    public Priest(int fangs){
+    public Vampire(int fangs){
 	health = 100;
 	strength = 50;
 	defense = 45;
