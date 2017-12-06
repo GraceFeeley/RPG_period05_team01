@@ -3,7 +3,7 @@ public class Vampire extends Monster{
     
     /*
     constructor */
-    public Priest(int fangs){
+    public Vampire(int fangs){
 	health = 100;
 	strength = 50;
 	defense = 45;
@@ -18,4 +18,7 @@ public class Vampire extends Monster{
     System.out.println("Om nom nom nom!");
     return damage;
   }
+
+    public String toString(){
+	return "Uh oh, here's comes a vamp! Look ath those teeth, they're practically " + fangSize + " inches! I wouldn't want to be their next snack, though with a health of " + health + " and a strength of " + strength + " you just might be!!";
 }

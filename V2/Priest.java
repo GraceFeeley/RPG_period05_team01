@@ -18,6 +18,9 @@ public class Priest extends Protagonist{
 	}
 	else System.out.println("Low mana!");
     }
+
+    public String toString(){
+	return "Priest " + name + " at your service! Here for all your holy healing needs. With a health of " + health + " a mana of " + mana + " they're not an easy one to bring down. Good luck!";
 }
 	
 	
