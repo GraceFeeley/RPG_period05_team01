@@ -3,8 +3,7 @@
 #Protagonist Subclasses
 
 ##Knight
-
-Stats | 
+Stats | #
 ------------ | -------------
 Health | 400
 Defense | 55
@@ -15,8 +14,7 @@ Strength | 70
 owns private field **sword**, which adds to 
 
 ##Priest
-
-Stats | 
+Stats | #
 ------------ | -------------
 Health | 500
 Defense | 35
@@ -31,8 +29,7 @@ priests can use **holy healing** to regain health, however this comes at the cos
 #Monster Subclasses
 
 ## Werewolf
-
-Stats | 
+Stats | #
 ------------ | -------------
 Health | 60
 Defense | 50
@@ -44,7 +41,7 @@ werewolves can use **howl** to take down the defense of enemies, watch out!
 
 ## Vampire
 
-Stats | 
+Stats | #
 ------------ | -------------
 Health | 100
 Defense | 45
