@@ -74,10 +74,18 @@ public class YoRPG
 
     //instantiate the player's character
 	try {
-	System.out.println( "\nWhich Protagonist which you like?" );
-	prot = Integer.parseInt( in.readLine() )
+	System.out.println( "\nWhich Protagonist which you like? Angel, Priest, or Knight?" );
+	String input = Integer.parseInt( in.readLine() );
+	if (input.equals("Angel")
+		pat = new Angel( name );
+	else if (input.equals("Priest")
+		pat = new Priest( name );
+	else if (input.equals("Knight")
+		pat = new Knight( name );
+	else 
+		System.out.println("Non-existent please try again");
 	}
-    pat = new prot( name );
+
 
   }//end newGame()
 
@@ -97,12 +105,16 @@ public class YoRPG
 	    System.out.println( "\nNothing to see here. Move along!" );
     else {
 	    System.out.println( "\nLo, yonder monster approacheth!" );
-
-		try {
-			System.out.println( "\nWhich Monster which you like?" );
-			mons = Integer.parseInt( in.readLine() )
 		}
-	    smaug = new mons();
+		
+	if (input.equals("Angel")
+	    smaug = new Demon();
+	else if (input.equals("Priest")
+	    smaug = new Vampire();;
+	else if (input.equals("Knight")
+	    smaug = new Werewolf();;
+	else 
+		System.out.println("Non-existent please try again");
 
 	    while( smaug.isAlive() && pat.isAlive() ) {
 
