@@ -113,8 +113,7 @@ public class YoRPG
 	    smaug = new Vampire();;
 	else if (input.equals("Knight")
 	    smaug = new Werewolf();;
-	else 
-		System.out.println("Non-existent please try again");
+
 
 	    while( smaug.isAlive() && pat.isAlive() ) {
 
